@@ -1,0 +1,603 @@
+[
+  {
+    "id": 1,
+    "name": "Deluxe Suite",
+    "type": "Suite",
+    "price": 150,
+    "currency": "USD",
+    "availability": true,
+    "description": "A spacious suite with a king-size bed, private balcony, and sea view.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 3,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room1-1"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Room",
+    "type": "Standard",
+    "price": 80,
+    "currency": "USD",
+    "availability": false,
+    "description": "A cozy standard room with a queen-size bed and a city view.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room2-1"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Family Room",
+    "type": "Family",
+    "price": 120,
+    "currency": "USD",
+    "availability": true,
+    "description": "Spacious family room with two queen beds and a city view.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 4,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room3-1"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Executive Suite",
+    "type": "Suite",
+    "price": 200,
+    "currency": "USD",
+    "availability": true,
+    "description": "Premium suite with king bed, private office, and lounge access.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room4-1"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Single Room",
+    "type": "Single",
+    "price": 50,
+    "currency": "USD",
+    "availability": true,
+    "description": "Compact single room, ideal for solo travelers.",
+    "features": {
+      "bedType": "Single",
+      "maxOccupancy": 1,
+      "wifi": true,
+      "airConditioning": false,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room5-1"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Luxury Suite",
+    "type": "Suite",
+    "price": 250,
+    "currency": "USD",
+    "availability": false,
+    "description": "Exclusive luxury suite with premium amenities and a panoramic view.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room6-1",
+      "./room.jpg?room6-2"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Economy Room",
+    "type": "Economy",
+    "price": 40,
+    "currency": "USD",
+    "availability": true,
+    "description": "Simple and affordable room with essential amenities.",
+    "features": {
+      "bedType": "Twin",
+      "maxOccupancy": 2,
+      "wifi": false,
+      "airConditioning": false,
+      "tv": false,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room7-1"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ocean View Room",
+    "type": "Standard",
+    "price": 110,
+    "currency": "USD",
+    "availability": true,
+    "description": "Room with a beautiful ocean view, ideal for relaxation.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room8-1"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "City Suite",
+    "type": "Suite",
+    "price": 160,
+    "currency": "USD",
+    "availability": false,
+    "description": "Modern suite with a cityscape view, perfect for business travelers.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room9-1"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Garden Room",
+    "type": "Standard",
+    "price": 90,
+    "currency": "USD",
+    "availability": true,
+    "description": "Peaceful room with a garden view and comfortable amenities.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": false,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room10-1"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Penthouse Suite",
+    "type": "Suite",
+    "price": 300,
+    "currency": "USD",
+    "availability": true,
+    "description": "Luxury penthouse suite with stunning views and top-tier amenities.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 4,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room11-1"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Junior Suite",
+    "type": "Suite",
+    "price": 130,
+    "currency": "USD",
+    "availability": true,
+    "description": "Comfortable junior suite with modern furnishings and amenities.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 3,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room12-1"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Presidential Suite",
+    "type": "Suite",
+    "price": 400,
+    "currency": "USD",
+    "availability": false,
+    "description": "Exclusive presidential suite with unparalleled luxury and service.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 4,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room13-1"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Twin Room",
+    "type": "Standard",
+    "price": 70,
+    "currency": "USD",
+    "availability": true,
+    "description": "Comfortable room with two twin beds and modern amenities.",
+    "features": {
+      "bedType": "Twin",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room14-1"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Honeymoon Suite",
+    "type": "Suite",
+    "price": 220,
+    "currency": "USD",
+    "availability": true,
+    "description": "Romantic suite perfect for honeymooners, with a private jacuzzi.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room15-1"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Studio Room",
+    "type": "Standard",
+    "price": 60,
+    "currency": "USD",
+    "availability": true,
+    "description": "Cozy studio with a small kitchenette and modern amenities.",
+    "features": {
+      "bedType": "Double",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room16-1"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Suite with Spa Access",
+    "type": "Suite",
+    "price": 180,
+    "currency": "USD",
+    "availability": false,
+    "description": "Elegant suite with complimentary spa access and premium amenities.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room17-1"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Mountain View Room",
+    "type": "Standard",
+    "price": 100,
+    "currency": "USD",
+    "availability": true,
+    "description": "Room with a picturesque mountain view, ideal for nature lovers.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room18-1"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Budget Single Room",
+    "type": "Single",
+    "price": 35,
+    "currency": "USD",
+    "availability": true,
+    "description": "Affordable single room for budget-conscious travelers.",
+    "features": {
+      "bedType": "Single",
+      "maxOccupancy": 1,
+      "wifi": false,
+      "airConditioning": false,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room19-1"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Premium Suite",
+    "type": "Suite",
+    "price": 270,
+    "currency": "USD",
+    "availability": true,
+    "description": "Spacious premium suite with top-notch amenities and services.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 3,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room20-1"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Deluxe Family Room",
+    "type": "Family",
+    "price": 140,
+    "currency": "USD",
+    "availability": false,
+    "description": "Comfortable family room with separate areas for adults and children.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 4,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room21-1"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Corner Suite",
+    "type": "Suite",
+    "price": 190,
+    "currency": "USD",
+    "availability": true,
+    "description": "Spacious corner suite with panoramic views and luxury amenities.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 3,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room22-1"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Pet-Friendly Room",
+    "type": "Standard",
+    "price": 75,
+    "currency": "USD",
+    "availability": true,
+    "description": "Room that welcomes pets, with pet-friendly amenities.",
+    "features": {
+      "bedType": "Double",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room23-1"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Business Room",
+    "type": "Standard",
+    "price": 95,
+    "currency": "USD",
+    "availability": true,
+    "description": "Room equipped with facilities ideal for business travelers.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room24-1"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Superior Room",
+    "type": "Standard",
+    "price": 85,
+    "currency": "USD",
+    "availability": false,
+    "description": "Superior room with modern decor and enhanced amenities.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room25-1"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Luxury Family Suite",
+    "type": "Family",
+    "price": 170,
+    "currency": "USD",
+    "availability": true,
+    "description": "Luxurious suite with separate bedrooms for adults and children.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 4,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room26-1"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Compact Double Room",
+    "type": "Standard",
+    "price": 55,
+    "currency": "USD",
+    "availability": true,
+    "description": "Compact room with a double bed, ideal for short stays.",
+    "features": {
+      "bedType": "Double",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": false,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room27-1"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Luxury Ocean Suite",
+    "type": "Suite",
+    "price": 280,
+    "currency": "USD",
+    "availability": false,
+    "description": "Luxury suite with magnificent ocean views and premium services.",
+    "features": {
+      "bedType": "King",
+      "maxOccupancy": 3,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room28-1"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "City View Room",
+    "type": "Standard",
+    "price": 105,
+    "currency": "USD",
+    "availability": true,
+    "description": "Modern room with a breathtaking city view.",
+    "features": {
+      "bedType": "Queen",
+      "maxOccupancy": 2,
+      "wifi": true,
+      "airConditioning": true,
+      "tv": true,
+      "minibar": true
+    },
+    "images": [
+      "./room.jpg?room29-1"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Economy Twin Room",
+    "type": "Economy",
+    "price": 45,
+    "currency": "USD",
+    "availability": true,
+    "description": "Affordable twin room with basic amenities.",
+    "features": {
+      "bedType": "Twin",
+      "maxOccupancy": 2,
+      "wifi": false,
+      "airConditioning": false,
+      "tv": true,
+      "minibar": false
+    },
+    "images": [
+      "./room.jpg?room30-1"
+    ]
+  }
+]
