@@ -1,114 +1,134 @@
-/* app/home/page.module.css */
-
 .page {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   min-height: 100vh;
-  background-color: #f4f4f9;
-  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 20px;
   text-align: center;
-  padding: 40px 20px;
-  flex-grow: 1;
 }
 
 .logo {
-  width: 150px;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  margin: 20px auto;
+  display: block;
 }
 
 .introduction {
+  margin: 20px 0;
   font-size: 1.2rem;
   color: #333;
-  margin-bottom: 20px;
 }
 
 .code {
-  background-color: #f7f7f7;
-  padding: 2px 5px;
-  border-radius: 5px;
-  font-size: 1rem;
-  color: #0070f3;
+  background: #e9ecef;
+  color: #007bff;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 30px 0 10px;
+}
+
+.roomsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.roomCard {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.roomCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.roomImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.roomDetails {
+  padding: 15px;
+  text-align: left;
+}
+
+.roomDetails h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.roomDetails p {
+  font-size: 0.9rem;
+  color: #555;
 }
 
 .button {
-  background-color: #0070f3;
-  color: white;
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
   border: none;
-  padding: 10px 20px;
-  font-size: 1.1rem;
-  font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 30px;
+  text-decoration: none;
 }
 
 .button:hover {
-  background-color: #005bb5;
+  background-color: #0056b3;
 }
 
 .footer {
-  background-color: #333;
-  color: white;
+  background-color: #343a40;
+  color: #fff;
   padding: 20px 0;
   text-align: center;
-  font-size: 1rem;
 }
 
 .footerContent {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footerText {
-  margin-bottom: 10px;
-  font-size: 1rem;
-  color: #ccc;
+  margin: 10px 0;
 }
 
 .socialLinks {
-  margin-top: 10px;
+  display: flex;
+  gap: 15px;
 }
 
 .socialLink {
-  color: white;
+  color: #fff;
   text-decoration: none;
-  margin: 0 15px;
-  font-size: 1.1rem;
+  transition: color 0.3s ease;
 }
 
 .socialLink:hover {
-  text-decoration: underline;
-  color: #0070f3;
-}
-
-@media (max-width: 768px) {
-  .footerText {
-    font-size: 0.9rem;
-  }
-
-  .socialLink {
-    font-size: 1rem;
-    margin: 0 10px;
-  }
-
-  .button {
-    padding: 8px 16px;
-    font-size: 1rem;
-  }
+  color: #007bff;
 }
