@@ -3,7 +3,7 @@ import * as fs from 'fs/promises';
 
 @Injectable()
 export class RoomsService {
-  async getAllRooms(page: number, limit: number): Promise<any[]> {
+  async getAllRooms(page?: number, limit?: number): Promise<any[]> {
     const filePath = 'src/rooms/data/room.json';
     const data = await fs.readFile(filePath, 'utf8');
 
@@ -12,12 +12,14 @@ export class RoomsService {
     }
 
     const rooms = JSON.parse(data);
-
     const startIndex = (page - 1) * limit;
     const endIndex = startIndex + limit;
     const paginatedRooms = rooms.slice(startIndex, endIndex);
 
-    return paginatedRooms;
+      return paginatedRooms;
+
+
+
   }
 
   async getRoomById(id: number) {

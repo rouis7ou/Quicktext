@@ -7,8 +7,8 @@ export class RoomsController {
 
   @Get()
   async getAllRooms(
-    @Query('page', ParseIntPipe) page: number = 1,
-    @Query('limit', ParseIntPipe) limit: number = 10,
+    @Query('page', new ParseIntPipe({optional: true})) page: number = 1 ,
+    @Query('limit', new ParseIntPipe({optional: true})) limit: number =100 ,
   ) {
     const rooms = await this.roomsService.getAllRooms(page, limit);
     return rooms;
