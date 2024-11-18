@@ -13,7 +13,6 @@ export class RoomsService {
 
     const rooms = JSON.parse(data);
 
-    // Pagination logic
     const startIndex = (page - 1) * limit;
     const endIndex = startIndex + limit;
     const paginatedRooms = rooms.slice(startIndex, endIndex);
